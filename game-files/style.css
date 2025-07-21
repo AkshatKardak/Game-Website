@@ -30,7 +30,7 @@
 
 .hero-bg{
     position:absolute;
-    background:url('../images/body-bg.jpg');
+    background:url('images/body-bg.jpg'); /* Corrected path */
     opacity:0.3;
     z-index:-2;
     width:100%;
@@ -200,11 +200,17 @@
 
 .teams-section h2 {
     font-family: 'Orbitron', sans-serif;
-    font-size: 3em;
+    font-size: 3.5em; /* Increased font size */
     text-align: center;
-    text-shadow: 0 0 15px rgba(23,47,238,0.8); 
-    margin-bottom: 50px;
     color: #f0f0f0;
+    margin-bottom: 50px;
+    letter-spacing: 5px; /* Added letter spacing */
+    text-transform: uppercase; /* Uppercase text */
+    text-shadow: 0 0 20px rgba(123,47,238,0.8), 0 0 30px rgba(0,188,212,0.6); /* Enhanced text-shadow */
+    background: linear-gradient(45deg, #7B2FEE, #00bcd4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
 }
 
 .teams-grid {
@@ -586,10 +592,14 @@
 }
 
 .hero-content.visible,
+.hero-image.visible,
 .news-card.visible,
 .news-section h2.visible,
 .team-card.visible,
-.teams-section h2.visible {
+.teams-section h2.visible,
+.games-section.visible,
+.about-us-section.visible,
+.contact-section.visible {
     opacity: 1;
     transform: translateY(0);
 }
@@ -615,6 +625,7 @@
     align-items: center;
     cursor: pointer;
     visibility: hidden;
+    opacity: 0;
     transition: all 0.3s ease;
     z-index: 999; 
     box-shadow: 0 5px 15px rgba(123,47,238,0.4);
