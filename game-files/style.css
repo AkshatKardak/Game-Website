@@ -206,11 +206,8 @@
     margin-bottom: 50px;
     letter-spacing: 5px;
     text-transform: uppercase;
-    text-shadow: 0 0 20px rgba(123,47,238,0.8), 0 0 30px rgba(0,188,212,0.6);
-    background: linear-gradient(45deg, #7B2FEE, #00bcd4);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
+    text-shadow: 0 0 15px rgba(23,47,238,0.8); 
+    
 }
 
 .teams-grid {
@@ -582,6 +579,7 @@
 .news-section h2,
 .team-card,
 .teams-section h2 {
+    transform: translateY(50px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
 
