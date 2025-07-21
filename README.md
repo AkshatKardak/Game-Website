@@ -50,18 +50,18 @@ The project is organized as follows:
 ```plaintext
 Game Website/
 ├── game-files/
-│   ├── index.html              # Main HTML file  
-│   ├── style.css               # All CSS styling  
-│   └── script.js               # JavaScript for interactivity  
-├── images/
-│   ├── favicon.svg             # Website favicon  
-│   ├── logo.png                # Main website logo  
-│   ├── hero-banner.png         # Image for the hero section  
-│   ├── hero-banner-bg.png      # Background image for the hero section  
-│   ├── team-logo-1.png         # Team logo 1 (and similar for 2–6)  
-│   ├── news-1.jpg              # News image 1 (and similar for 2–3)  
-│   └── ...                     # Other image assets  
-└── README.md                   # This README file  
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+├── images/  
+│   ├── favicon.svg
+│   ├── logo.png
+│   ├── hero-banner.png
+│   ├── hero-banner-bg.png
+│   ├── team-logo-1.png
+│   ├── news-1.jpg
+│   └── ...
+└── README.md
 ```
 
 ---
