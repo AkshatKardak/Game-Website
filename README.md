@@ -71,6 +71,7 @@ Game Website/
 - Navigate to the Game Website directory.
 - Open the index.html file located inside the game-files folder in your web browser.
 - Example path: Game Website/game-files/index.html
+- Preview of the website **https://game-website-final.vercel.app/**
 
 ---
 
