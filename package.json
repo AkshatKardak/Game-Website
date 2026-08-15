@@ -1,0 +1,19 @@
+{
+  "name": "game-website-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack gaming platform with React, Vite, Node.js, Express, MongoDB and Groq AI",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && npm run dev",
+    "build": "cd client && npm run build",
+    "install-all": "npm install && cd server && npm install && cd ../client && npm install",
+    "seed": "cd server && npm run seed"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "author": "Galactic Squad",
+  "license": "MIT"
+}
